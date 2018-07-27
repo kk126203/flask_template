@@ -12,13 +12,11 @@ app = Flask(__name__, template_folder=tmpl_dir)
 
 @app.route('/')
 def homepage():
-  
   return render_template("homepage.html")
 
 
 @app.route('/second_page')
 def second_page():
-  print "here"
   return render_template("second_page.html")
 
 
