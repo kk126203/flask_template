@@ -1,0 +1,10 @@
+
+to run the server, open terminal and use the command:
+
+$ python server.py
+
+then open the browser and use the link:
+
+127.0.0.1:8000
+
+and this will show the homepage of the website
